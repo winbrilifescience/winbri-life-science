@@ -105,7 +105,7 @@ function BoneDensityService() {
                             </div> */}
                             <div className="news-head">
                               <img
-                                src="/assets/images/services/bone-density-2.JPG"
+                                src="/assets/images/services/bone-density-2.jpg"
                                 alt="#"
                                 className="service-img"
                               />
