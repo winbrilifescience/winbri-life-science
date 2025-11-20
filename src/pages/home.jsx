@@ -780,7 +780,7 @@ function Home() {
                 <div className="col-12 mb-md-0 mb-3 text-center service">
                   <a alt="Winbri" href="/bone-density-test">
                     <img
-                      src="/assets/images/service/bone-density.JPG"
+                      src="/assets/images/service/bone-density.jpg"
                       width="100%"
                       alt=""
                     />
@@ -991,7 +991,7 @@ function Home() {
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
                 <a alt="Winbri" href="/bone-density-test">
                   <img
-                    src="/assets/images/service/bone-density.JPG"
+                    src="/assets/images/service/bone-density.jpg"
                     width="100%"
                     alt=""
                   />

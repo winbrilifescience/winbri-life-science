@@ -170,7 +170,7 @@ function AllServices({ service }) {
                 <div className="col-12 mb-md-0 mb-3 text-center service">
                   <a alt="Winbri" href="/bone-density-test">
                     <img
-                      src="/assets/images/service/bone-density.JPG"
+                      src="/assets/images/service/bone-density.jpg"
                       width="100%"
                       alt=""
                     />
