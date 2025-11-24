@@ -253,6 +253,17 @@ function Home() {
                   }}
                 ></div>
               </div>
+              <div className="single-slider d-md-block d-none">
+                <div
+                  style={{
+                    backgroundImage:
+                      'url("/assets/images/diagnostic-center-slider.png")',
+                    backgroundSize: "cover",
+                    backgroundPosition: "center",
+                    minHeight: "600px",
+                  }}
+                ></div>
+              </div>
               {/* <div className="single-slider">
                 <div
                   style={{
@@ -351,78 +362,17 @@ function Home() {
                   }}
                 ></div>
               </div>
-              {/* <div className="single-slider">
+              <div className="single-slider d-md-none d-block">
                 <div
                   style={{
-                    backgroundImage: 'url("/assets/images/slider-2.webp")',
+                    backgroundImage:
+                      'url("/assets/images/diagnostic-center-slider-mobile.png")',
                     backgroundSize: "cover",
                     backgroundPosition: "center",
                     minHeight: "600px",
                   }}
-                >
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-7">
-                        <div className="text">
-                          <h1>
-                            We Provide <span>Medical</span> Services That You
-                            Can
-                            <span>Trust!</span>
-                          </h1>
-                          <p>
-                            Book Appointment for Emergency{" "}
-                            <span>Diagnostic services</span> at Doorstep
-                          </p>
-                          <div className="button">
-                            <a href="#" className="btn">
-                              Book Now
-                            </a>
-                            <a href="#" className="btn primary">
-                              Know More
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                ></div>
               </div>
-              <div className="single-slider">
-                <div
-                  style={{
-                    backgroundImage: 'url("/assets/images/slider-4.webp")',
-                    backgroundSize: "cover",
-                    backgroundPosition: "center",
-                    minHeight: "600px",
-                  }}
-                >
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-lg-7">
-                        <div className="text">
-                          <h1>
-                            We Provide <span>Medical</span> Services That You
-                            Can
-                            <span>Trust!</span>
-                          </h1>
-                          <p>
-                            Book Appointment for Emergency{" "}
-                            <span>Health Care Services</span> At Doorstep
-                          </p>
-                          <div className="button">
-                            <a href="#" className="btn">
-                              Get Appointment
-                            </a>
-                            <a href="#" className="btn primary">
-                              Know More
-                            </a>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div> */}
             </Slider>
           </div>
         </section>
@@ -567,10 +517,10 @@ function Home() {
                         <i className="fa fa-ambulance mirrored-icon" />
                       </div>
                       <div className="single-content">
-                        <h4>Emergency Cases</h4>
+                        <h4>Emergency service</h4>
                         <p>
-                          We provides ECG testing services at-home, offering
-                          critical care in emergency situations.
+                          We provide ECG Test with Cardiologist certified
+                          Interpretation report within 30 minutes at home...
                         </p>
                         <a href="#">
                           LEARN MORE
@@ -587,10 +537,11 @@ function Home() {
                         <i class="fa-brands fa-wpforms"></i>
                       </div>
                       <div className="single-content">
-                        <h4>Call Us at 99799-60020</h4>
+                        <h4>All Doorstep Services</h4>
                         <p>
-                          Call us at 99799-60020 | 99799-60030 | 82007-88099 to
-                          book immediate Appointment for ECG, PFT, X-Ray ...
+                          We provide all services with Specialist Doctor
+                          Certified reports at home. Between 6:00 AM to 10:00
+                          PM...
                         </p>
                         <a href="#">
                           LEARN MORE
@@ -606,7 +557,7 @@ function Home() {
                       <div className="icon">
                         <i class="fa-regular fa-clock"></i>
                       </div>
-                      <div className="single-content">
+                      {/* <div className="single-content">
                         <h4>Opening Hours</h4>
                         <ul className="time-sidual opening-hours">
                           <li className="day">
@@ -614,6 +565,24 @@ function Home() {
                           </li>
                           <li className="day">
                             Open <span>365 Days</span>
+                          </li>
+                        </ul>
+                        <a href="#">
+                          LEARN MORE
+                          <i className="fa fa-long-arrow-right" />
+                        </a>
+                      </div> */}
+                      <div className="single-content">
+                        <h4>Book Appointment Now</h4>
+                        <ul className="time-sidual">
+                          <li className="day">
+                            99799 60020 
+                          </li>
+                          <li className="day">
+                            95101 75747 
+                          </li>
+                          <li className="day">
+                            82007 88099
                           </li>
                         </ul>
                         <a href="#">
@@ -676,9 +645,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -692,9 +659,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -708,9 +673,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -724,9 +687,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -740,9 +701,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -756,9 +715,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -772,9 +729,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -788,9 +743,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -804,9 +757,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -820,9 +771,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -836,9 +785,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -852,9 +799,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
                 <div className="col-12 mb-md-0 mb-3 text-center service">
@@ -868,9 +813,7 @@ function Home() {
                     <button className="text-center read-btn mb-1">
                       READ MORE
                     </button>
-                    <button className="text-center book-btn">
-                      BOOK NOW
-                    </button>
+                    <button className="text-center book-btn">BOOK NOW</button>
                   </a>
                 </div>
               </OwlCarousel>
@@ -887,9 +830,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -903,9 +844,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -919,9 +858,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -935,9 +872,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -951,9 +886,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -967,9 +900,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -983,9 +914,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -999,9 +928,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -1015,9 +942,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -1031,9 +956,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -1047,9 +970,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -1063,9 +984,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service mt-md-3 mt-0">
@@ -1079,9 +998,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
             </div>
@@ -1225,9 +1142,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1241,9 +1156,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
             </div>
@@ -1283,9 +1196,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1299,9 +1210,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1315,9 +1224,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1331,9 +1238,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1347,9 +1252,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
               <div className="col-md-2 col-6 mb-md-0 mb-3 text-center service">
@@ -1363,9 +1266,7 @@ function Home() {
                   <button className="text-center read-btn mb-1">
                     READ MORE
                   </button>
-                  <button className="text-center book-btn">
-                    BOOK NOW
-                  </button>
+                  <button className="text-center book-btn">BOOK NOW</button>
                 </a>
               </div>
             </div>
@@ -1990,7 +1891,8 @@ function Home() {
                   <div className="single-footer">
                     <h2>About Us</h2>
                     <p>
-                      401, Jivandeep Doctor House, Unapani Rd, LalDarwaja, Lal Darwaja, Varachha, Surat, Gujarat 395003
+                      401, Jivandeep Doctor House, Unapani Rd, LalDarwaja, Lal
+                      Darwaja, Varachha, Surat, Gujarat 395003
                     </p>
                     <ul className="social ps-0">
                       <li>
