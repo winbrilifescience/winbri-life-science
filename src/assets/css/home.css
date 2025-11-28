@@ -736,6 +736,12 @@ body {
   padding: 0;
   height: 230px;
 }
+.schedule.contact {
+  background: #fff;
+  margin: 0;
+  padding: 0;
+  height: auto;
+}
 .schedule .schedule-inner {
   position: relative;
   transform: translateY(-50%);

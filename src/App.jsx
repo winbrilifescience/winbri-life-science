@@ -23,6 +23,7 @@ import DieticianService from "./pages/services/health-care-services/dietician";
 import NursingCareService from "./pages/services/health-care-services/nursing-care";
 import EMGService from "./pages/services/diagnostic-services/emg-test";
 import AboutUs from "./pages/about-us";
+import ContactPage from "./pages/contact";
 const NotFoundPage = lazy(() => import("./pages/404"));
 
 function App() {
@@ -31,6 +32,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about-us" element={<AboutUs />} />
+        <Route path="/contact" element={<ContactPage />} />
         {/* Diagnostic services */}
         <Route path="/ecg-test" element={<ECGService />} />
         <Route path="/pft-test" element={<PFTService />} />
